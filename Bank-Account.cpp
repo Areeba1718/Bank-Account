@@ -54,27 +54,3 @@ public:
     }
 };
 
-int main() {
-    // Creating a BankAccount object
-    BankAccount account("John Doe", 123456, 500.0);
-
-    // Displaying initial account information
-    account.displayAccountInfo();
-
-    // Depositing money
-    account.deposit(150.0);
-
-    // Checking balance
-    cout << "Current Balance: $" << account.checkBalance() << endl;
-
-    // Withdrawing money
-    account.withdraw(100.0);
-
-    // Checking balance after withdrawal
-    cout << "Current Balance: $" << account.checkBalance() << endl;
-
-    // Displaying final account information
-    account.displayAccountInfo();
-
-    return 0;
-}
