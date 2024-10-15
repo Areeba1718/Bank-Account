@@ -47,7 +47,8 @@ public:
     }
 
     // Function to display account details
-    void displayAccountInfo() {
+    void displayAccountInfo()
+    {
         cout << "Account Holder: " << accountHolder << endl;
         cout << "Account Number: " << accountNumber << endl;
         cout << "Balance: $" << balance << endl;
